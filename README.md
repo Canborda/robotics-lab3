@@ -74,3 +74,14 @@ In this alternative Matlab creates his own node to communicate with all other RO
 
 From matlab is also possible to `echo` a topic in order to read its messages:
 <p align="center"><img src="images/matlab_subscriber.png" height="500" alt="matlab subscriber"></p>
+
+---
+# Conclusions:
+
+- The main advantage of using ROS is the communication between different software and hardware devices with an integrated environment, thus is easier to build more complex robotics systems on a wide variety of applications. 
+
+- ROS is an open source tool, so it comes up with a huge community and online support, where it keeps growing and solving more issues. Also is well documented.
+
+- Matlab connection with ROS can simplify some processes and allows to use any matlab tool, however it is important to mention that Matlab is not a free software and sometimes people do not understand enterelly what is really happening in the system.
+
+---
