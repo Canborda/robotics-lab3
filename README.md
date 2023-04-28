@@ -43,3 +43,15 @@ The topics used for this package were:
 Also we used two services:
 - `/turtle1/teleport_absolute`: to re-spawn the turtle on the initial point.
 - `/turtle1/teleport_relative`: to rotate the turtle 180 degrees with respect to its current position.
+
+---
+# ROS on Python
+
+The presented solution uses the keyboard listener of the [pynput library](https://pynput.readthedocs.io/en/latest/keyboard.html#monitoring-the-keyboard) to listen for the keys: `W`, `A`, `S`, `D`, `R` and `Space`, and depending on the pressed key publishes a message on the corresponding topic.
+
+- For linear velocity `W`/`S` keys increase or decrease the value with a rate of 1, and the limit value is 10 (forward or backward).
+- For angular velicity `A`/`D` keys increase or decrease the value with a rate of 1, and the limit value is 10 (clockwise or counterclockwise).
+
+When the `/teleop_keyboard` node is publishing messages, the ROS graph looks like this (the node with the long name is a temporary node created with the `rostopic echo /turtle1/pose` command to monitor the turtle pose):
+
+<p align="center"><img src="images/graph_python.png" height="250" alt="ros graph"></p>
