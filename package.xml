@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>robotics-ros-1-introduction</name>
+  <version>0.0.0</version>
+  <description>The robotics-ros-1-introduction package</description>
+
+  <maintainer email="caabordagi@unal.edu.co">caabordagi</maintainer>
+
+  <license>MIT</license>
+
+  <author email="caabordagi@unal.edu.co">Camilo Borda</author>
+  <author email="psmedinadi@unal.edu.co">Paula Medina</author>
+  <author email="rjorduzg@unal.edu.co">Robinson Orduz</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

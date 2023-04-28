@@ -5,7 +5,7 @@ Connection to ROS with matlab and teleop keys.
 > 
 > - [Camilo Andrés Borda Gil](https://github.com/Canborda) (caabordagi@unal.edu.co)
 > - Paula Sofía Medina Diaz (psmedinadi@unal.edu.co)
-> - Robinson Jair Orduxz Gomez (rjorduzg@unal.edu.co)
+> - Robinson Jair Orduz Gomez (rjorduzg@unal.edu.co)
 
 ---
 # INTRODUCTION TO ROS
