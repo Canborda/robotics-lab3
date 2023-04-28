@@ -58,3 +58,19 @@ When the `/teleop_keyboard` node is publishing messages, the ROS graph looks lik
 
 ### Demostration
 https://user-images.githubusercontent.com/55401093/191138347-6409a2b8-c60f-417a-9f12-91d48614543e.mp4
+
+---
+# ROS on Matlab
+
+The [Matlab ROS Toolbox](https://www.mathworks.com/help/ros/ug/get-started-with-ros.html) allows to use ROS on a "easier" (less code) way, also to work alongside with all matlab tools. For this we developed two scripts:
+- [rospublisher](./matlab_script/rospublisher.m) is a simple publisher that shows how to send a message to a ROS topic from Matlab.
+- [poseSubs](./matlab_script/poseSubs.m) is a simple subscriber that also plots the turtle position in a matlab figure.
+
+In this alternative Matlab creates his own node to communicate with all other ROS running nodes, then the resulting graph looks like this:
+
+<p align="center"><img src="images/graph_matlab.png" height="250" alt="ros graph with matlab"></p>
+
+[PASTE DEMONSTRATION VIDEO HERE]
+
+From matlab is also possible to `echo` a topic in order to read its messages:
+<p align="center"><img src="images/matlab_subscriber.png" height="500" alt="matlab subscriber"></p>
